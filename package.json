@@ -30,8 +30,8 @@
     "eject": "react-scripts eject",
     "serverStart": "nodemon server/index.js",
     "seed": "node server/seed.js",
-    "predeploy": "npm run build", 
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

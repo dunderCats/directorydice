@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ContactPage.scss";
+import { Link } from "react-router-dom";
 
 export const ContactPage = () => {
   const [name, setName] = useState("");
@@ -15,43 +16,50 @@ export const ContactPage = () => {
   };
 
   return (
-    <div className="ContactPage">
-      <div><h1>Contact US:</h1> </div>
-      <div>
-        UST Xpanxion, LLC Address: 1355 Windward Concourse Suite 400,
-        Alpharetta, GA 30005 Phone: 949-716-8757{" "}
-      </div>
+    <div className="contactPage">
+      <h1 className="contactHeading">Contact US:</h1>{" "}
+      <div className="contactForm">
+        <p>Step It Up Academic Interns: </p>
+        <p>1166 6th Ave, New York, NY 10036</p>
+        <p>Phone: 212-777-7777 </p>
 
-      <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </label>
-        <p><label>
-          Email:
-          <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          />
-        </label>
-        </p>
-        <p>
-        <label>
-          Message:
-          <p><textarea
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          ></textarea>
+        <form onSubmit={handleSubmit}>
+          <p>
+            <label>
+              Name:
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </label>
           </p>
-        </label>
-        </p>
-        <button type="submit">Send</button>
-      </form>
+          <p>
+            <label>
+              Email:
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message:
+              <p>
+                <textarea
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                ></textarea>
+              </p>
+            </label>
+          </p>
+
+          <button type="submit" className="sendButton">Send</button>
+
+        </form>
+      </div>
     </div>
   );
 };

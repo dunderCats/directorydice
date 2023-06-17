@@ -12,11 +12,6 @@
     );
   }
 
-h1 {
-  font-family: "Codystar";
-  font-size: 5.5vh;
-  padding-bottom: 2.5vh;
-}
 
 p, ul, li {
   margin: 2vh 1.5vh;
@@ -30,4 +25,11 @@ p, ul, li {
 li {
   margin-left:5vh;
 }
-  
+
+.teamHeading {
+  font-family: "Codystar";
+  color: white;
+  padding: 3vh 0vh 0vh 35vh;
+  font-size: 6.5vh;
+  padding-bottom: 2.5vh;
+}

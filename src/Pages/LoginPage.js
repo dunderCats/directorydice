@@ -25,9 +25,9 @@ export const LoginPage = () => {
 
   return (
     <div className="login_page">
-      <h1>Login</h1>
+      <h1 className="loginHeading">Login</h1>
       <div className="form">
-        <form onSubmit={handleSubmit}>
+      <p><form onSubmit={handleSubmit}>
           <label>Username
           <input
             type="text"
@@ -51,6 +51,7 @@ export const LoginPage = () => {
           <LoginButton/>
           <LogoutButton/>
         </form>
+      </p>
       </div>
     </div>
   );

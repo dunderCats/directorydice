@@ -1,15 +1,30 @@
-.ContactPage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vmax;
-    height: 100vmax;
-    padding: 15%;
-    grid-template-rows: 200px 200px 200px 200px;
-    background: linear-gradient(
-      251.97deg,
-      #2662bc 31.29%,
-      rgba(35, 164, 128, 0.973698) 59.4%,
-      rgba(32, 222, 74, 0.95) 91.94%
-    );
-  }
+.contactPage {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    251.97deg,
+    #2662bc 31.29%,
+    rgba(35, 164, 128, 0.973698) 59.4%,
+    rgba(32, 222, 74, 0.95) 91.94%
+  );
+}
+
+.contactHeading {
+  font-family: "Codystar";
+  color: white;
+  padding: 20vh 0vh 0vh 36vh;
+  font-size: 6.5vh;
+}
+
+.sendButton {
+  margin: 1vh 1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vh;
+  color: #000000;
+  margin-left: 42vh;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contactForm {
+  padding: 2vh 0vh 0vh 35vh;
+}

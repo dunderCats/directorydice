@@ -4,16 +4,19 @@
   display: flex;
   justify-content: flex-start;
   background-color: white;
+
 }
 
 #logo {
   background: transparent;
   border: none;
   justify-content: left;
+  
 }
 
 #logo img {
   width: 45vh;
+  
 }
 
 .navButton:nth-child(-n + 1) {
@@ -29,7 +32,8 @@
   cursor: pointer;
   outline: none;
   cursor: 'pointer';
-  outline: 'none'
+  outline: 'none';
+  margin-top: 2.5vh;
 }
 
 .navButton.active {

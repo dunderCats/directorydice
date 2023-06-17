@@ -27,7 +27,7 @@ function Login() {
             cookiePolicy = {'single_host_origin'}
             isSignedIn = {true}
             onSubmit={() => handleSubmit()}
-            <Link to="/membersgallery">Log in</Link>
+            {/* <Link to="/membersgallery">Log in</Link> */}
             </GoogleLogin>
         </div>
     )

@@ -68,10 +68,10 @@ CREATE TABLE members (
 inside the server directory, make sure password for pool.js and seed.js is updated to represent your sql server credentials.
 
 ### Adding the data to the table
-In the Command Line inside the app directory run the following command: node server/seed.js
+In the Command Line inside the app directory run the following command to initially seed the db after table creation: npm run seed
 
 ### Running the app
-"npm run seed" (to initially seed the db after creation), "npm run serverStart" (in one terminal to start the backend), and npm start (in another terminal to start the front end).
+Use the command "npm run serverStart" (in one terminal to start the backend), and "npm start" (in another terminal to start the front end).
 
 
 

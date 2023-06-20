@@ -42,7 +42,8 @@ function App() {
         <NavBar />
        
         <Routes>
-          <Route path="/" exact={true} element={<HomePage />} />
+          <Route path="/" exact={true} element={<HomePage />} />  
+          <Route path="/directorydice" exact={true} element={<HomePage />} />
           <Route path="/aboutus" exact={true} element={<AboutPage />} />
           <Route path="/contact" exact={true} element={<ContactPage />} />
           <Route path="/login" exact={true} element={<LoginPage />} />

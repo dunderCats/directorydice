@@ -1,3 +1,87 @@
+# DirectoryDice 
+
+By dunderCats  
+
+06.12.2023 
+
+## Overview 
+
+DirectoryDice is a versatile and user-friendly application designed to simplify the process of creating and managing organization directories or class rosters.  Whether you are a teacher, event planner, or manager running a company, DirectoryDice simplifies the process of creating and managing an interactive roster that brings convenience, efficiency, and fun. 
+
+## User Stories 
+
+As a user, I can … 
+
+Register and log into the application 
+
+Navigate the application pages easily 
+
+See all members in the directory 
+
+Add, update, edit, and delete members 
+
+Search for a member 
+
+Select one member randomly 
+
+Randomly cluster/generate a group 
+
+## MVP  
+
+A user will see all members in the directory upon page load 
+
+A user can search for one member by name 
+
+A user can add a new member to the directory via URL 
+
+A user can randomly select one member 
+
+ 
+## Stretch Goals 
+
+A user can edit a member 
+
+A user can delete a member 
+
+A user can add a new member to the directory via file upload 
+
+A user can register/login via authentication/authorization 
+
+A user will be assigned a user profile or admin profile based on authorization 
+
+A user can access the group picker 
+
+
+### Creating SQL table with Seed
+
+For this app you will need to create a SQL database. First, create table using this script in sql work bench:
+
+CREATE TABLE members (
+    member_id int PRIMARY KEY NOT NULL AUTO_INCREMENT UNIQUE,
+    first_name varchar(255) UNIQUE,
+    last_name varchar(255) ,
+    title varchar(255),
+    prof_pic text
+);
+
+### Updating your credentials
+inside the server directory, make sure password for pool.js and seed.js is updated to represent your sql server credentials.
+
+### Adding the data to the table
+In the Command Line inside the app directory run the following command: node server/seed.js
+
+### Running the app
+"npm run seed" (to initially seed the db after creation), "npm run serverStart" (in one terminal to start the backend), and npm start (in another terminal to start the front end).
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

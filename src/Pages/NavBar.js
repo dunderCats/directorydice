@@ -8,7 +8,7 @@ export const NavBar = () => {
   return (
     <div className="NavBar">
       <button className="logo">
-        <Link to="/">
+        <Link to="/" or>
           <img src={DDImage} alt="Logo" />
         </Link>
       </button>

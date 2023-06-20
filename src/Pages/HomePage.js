@@ -10,19 +10,19 @@ export const HomePage = () => {
 
       <div className="container2">
         <p className="homePara">
-          Directory Dice is a versatile and user-friendly application designed
+          DirectoryDice is a versatile and user-friendly application designed
           to simplify the process of creating and managing organization
-          directories or class rosters.{" "}
+          directories or class rosters.
         </p>
         <p className="homePara">Why use DirectoryDice?</p>
         <ul className="homePara">
           <li className="homePara">
             Intuitive interface and powerful features that allow for effortless
-            creation, updating, and navigating of member database
+            creation, updating, and navigating of member database.
           </li>
           <li className="homePara">
-            Easily create and customize directory by adding member names',title,
-            and profile picture
+            Easily create and customize directory by adding member names,title,
+            and profile pictures.
           </li>
           <li className="homePara">
             Users can add, edit, and update existing members or removed outdated
@@ -50,7 +50,7 @@ export const HomePage = () => {
         <p className="homePara">
           Whether you are a teacher, event planner, or manager running a company,
           DirectoryDice simplifies process of creating and managing an interactive
-          roster that brings convenience, efficiency, and fun!{" "}
+          roster that brings convenience, efficiency, and fun!
         </p>
 
       </div>

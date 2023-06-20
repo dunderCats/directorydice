@@ -58,7 +58,7 @@ For this app you will need to create a SQL database. First, create table using t
 
 CREATE TABLE members (
     member_id int PRIMARY KEY NOT NULL AUTO_INCREMENT UNIQUE,
-    first_name varchar(255) UNIQUE,
+    first_name varchar(255),
     last_name varchar(255) ,
     title varchar(255),
     prof_pic text
